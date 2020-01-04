@@ -2,13 +2,13 @@ package inheritance;
 
 class ParentInheritanceVarCls
 {
-	static String fam = "Thanjavur";
-	static String name = "Sridhar";
+	static String fam = "India";
+	static String name = "Parent";
 }
 
 public class InheritanceVarCls extends ParentInheritanceVarCls
 {
-	static String name = "Revanth";
+	static String name = "Child";
 	
 	public static void main(String[] args) 
 	{

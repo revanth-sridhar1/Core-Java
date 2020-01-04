@@ -4,15 +4,15 @@ class ParentInheritanceMethObj
 {
 	public void name() 
 	{
-		System.out.println("Sridhar");
+		System.out.println("Dad");
 	}
 	public void mother() 
 	{
-		System.out.println("Nalini");
+		System.out.println("Mom");
 	}
 	public static void company() 
 	{
-		System.out.println("Hp");
+		System.out.println("Amazon");
 	}
 }
 
@@ -20,17 +20,17 @@ public class InheritanceMethObj extends ParentInheritanceMethObj
 {
 	public void name() 
 	{
-		System.out.println("Revanth");
+		System.out.println("Son");
 	}
 	/*
 	 * static method cannot hide instance method
 	 * public static void name() 
 	 * { 
-	 * System.out.println("Chotu");	
+	 * System.out.println("Name");	
 	 * }
 	 */
 	public void wife() {
-		System.out.println("Akila");
+		System.out.println("Wife");
 	}
 	public static void company() {
 		System.out.println("Morgan");

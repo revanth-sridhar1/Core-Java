@@ -2,7 +2,7 @@ package accessModifier;
 
 class GrandParentPrivate
 {
-	private String grandName = "Kasi";
+	private String grandName = "GParent";
 	
 	public String getGrandName() {
 		return grandName;
@@ -11,7 +11,7 @@ class GrandParentPrivate
 
 class ParentPrivate extends GrandParentPrivate
 {
-	private String parentName = "Sridhar";
+	private String parentName = "Parent";
 	
 	public String getParentName() {
 		return parentName;
@@ -20,7 +20,7 @@ class ParentPrivate extends GrandParentPrivate
 
 public class Private extends ParentPrivate
 {
-	private String childName = "Revanth";
+	private String childName = "Child";
 	
 	public static void main(String[] args) {
 		Private p = new Private();

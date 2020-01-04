@@ -2,16 +2,16 @@ package inheritance;
 
 class ParentInheritanceVarObj 
 {
-	String name = "Sridhar";
-	String mother = "Nalini";
-	static String company = "Hp";
-	static String home = "Ambattur";
+	String name = "Dad";
+	String mother = "Mom";
+	static String company = "Amazon";
+	static String home = "India";
 }
 
 public class InheritanceVarObj extends ParentInheritanceVarObj
 {
-	String name = "Revanth";
-	String wife = "Akila";
+	String name = "Son";
+	String wife = "Wife";
 	static String company = "Morgan";
 	static String house = "America";
 	

@@ -2,17 +2,17 @@ package accessModifier;
 
 class GrandParentPublic
 {
-	public String grandName = "Kasi";
+	public String grandName = "GParent";
 }
 
 class ParentPublic extends GrandParentPublic
 {
-	public String parentName = "Sridhar";
+	public String parentName = "Parent";
 }
 
 public class Public extends ParentPublic	
 {
-	public String childName = "Revanth";
+	public String childName = "Child";
 	
 	public static void main(String[] args) {
 		Public p = new Public();

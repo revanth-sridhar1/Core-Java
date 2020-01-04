@@ -19,12 +19,12 @@ public class instanceBlock
 		System.out.println("instance block");
 		System.out.println(name);
 //		System.out.println(lastName);	does not exist at this level
-		lastName = "Sridhar";
+		lastName = "Parent";
 	}
 	{
 		System.out.println("name initialization");
-		name="Revanth";
-		lastName="Sridhar Kasinathan";
+		name="Child";
+		lastName="Parent GParent";
 	}
 	
 	String lastName;	

@@ -18,14 +18,14 @@ public class StaticBlock
 		System.out.println("static block");
 		System.out.println(name);
 //		System.out.println(lastName);	does not exist at this level
-		lastName = "Sridhar";
+		lastName = "Parent";
 		
 	}
 	static
 	{
 		System.out.println("name initialization");
-		name = "Revanth";
-		lastName = "Sridhar Kasinathan";
+		name = "Child";
+		lastName = "Parent GParent";
 	}
 	
 	static String lastName;	

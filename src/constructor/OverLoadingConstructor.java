@@ -2,7 +2,7 @@ package constructor;
 
 public class OverLoadingConstructor {
 
-	String name="Krishnan";
+	String name="A";
 	int age=20;
 	
 	public OverLoadingConstructor() 
@@ -11,10 +11,10 @@ public class OverLoadingConstructor {
 		 * cannot refer to instance field 
 		 * this(name,age);
 		 */
-		this("Abhimanyu");
+		this("B");
 		/*
 		 * constructor called first 
-		 * String n = "Rohith"; 
+		 * String n = "C"; 
 		 * this(n);
 		 */
 		System.out.println("First Constructor");

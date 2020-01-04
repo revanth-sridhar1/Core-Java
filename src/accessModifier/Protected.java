@@ -2,17 +2,17 @@ package accessModifier;
 
 class GrandParentProtected
 {
-	protected String grandName = "Kasi";
+	protected String grandName = "GParent";
 }
 
 class ParentProt extends GrandParentProtected
 {
-	protected String parentName = "Sridhar";
+	protected String parentName = "Parent";
 }
 
 public class Protected extends ParentProt	
 {
-	protected String childName = "Revanth";
+	protected String childName = "Child";
 	
 	public static void main(String[] args) {
 		Protected p = new Protected();
